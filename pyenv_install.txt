@@ -1,0 +1,13 @@
+    git clone https://github.com/yyuu/pyenv.git ~/.pyenv 
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+    echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+    echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+    exec $SHELL
+    source ~/.bash_profile
+    pyenv  install --list
+    pyenv install -v 3.6.4
+    pyenv versions
+    pyenv version
+    pyenv global 3.6.4
+    pyenv version
+    python
