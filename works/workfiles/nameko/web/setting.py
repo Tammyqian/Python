@@ -1,0 +1,11 @@
+DEBUG = True
+DB_NAME = 'sensorcmd'
+DB_HOST = '192.168.111.149:27019'
+CACHE_HOST = "192.168.111.149"
+PORT = 3002
+
+CAS_DB_HOST = '192.168.111.149:27017'
+
+AMQP_URI = 'amqp://guest:guest@127.0.0.1:5672//'
+
+ACTION_DIR = ('admin')

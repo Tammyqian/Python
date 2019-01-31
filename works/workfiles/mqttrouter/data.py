@@ -1,0 +1,28 @@
+# encoding: utf-8
+data = {
+"code_name" : "BJCC-ITS",
+"gateway_id" : "bjccits1001",
+"packet_name" : "BJCC-ITS",
+"node_id" : "bjccits1001",
+"unix_time" : "2018-08-23 13:20:31",
+"LaneID" : "2",
+"LaneIDFlyOver" : "2",
+"Speed" : "110",
+"Plate" : "蓝川LSV278",
+"VehType" : "22",
+"AxleLoad1" : "1280",
+"AxleLoad2" : "1230",
+"AxleLoad3" : "0",
+"AxleLoad4" : "0",
+"AxleLoad5" : "0",
+"AxleLoad6" : "0",
+"AxleLoad7" : "0",
+"AxleLoad8" : "0",
+"AxleSpacing1" : "2846",
+"AxleSpacing2" : "0",
+"AxleSpacing3" : "0",
+"AxleSpacing4" : "0",
+"AxleSpacing5" : "0",
+"AxleSpacing6" : "0",
+"AxleSpacing7" : "0"
+}
