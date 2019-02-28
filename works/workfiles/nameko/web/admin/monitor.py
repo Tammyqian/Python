@@ -1,6 +1,6 @@
 from bson import ObjectId
 from kpages import url, not_empty, get_members
-from mongo_util import MongoIns
+from mongo import MongoIns
 from logic.utility import BaseHandler, RpcHandler
 
 @url(r"/admin/monitor")

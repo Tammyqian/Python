@@ -1,4 +1,4 @@
-from mongo_util import MongoIns
+from mongo import MongoIns
 m_util = MongoIns()
 DB_NAME = 'sensorcmd'
 DB_HOST = '192.168.111.149:27019'

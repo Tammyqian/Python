@@ -1,6 +1,6 @@
 import time
 from datetime import datetime
-from mongo_util import MongoIns
+from mongo import MongoIns
 
 t1 = time.time()
 t2 = t1 - 365*24*3600*10

@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 from bson import ObjectId
 from kpages import url
-from mongo_util import MongoIns
+from mongo import MongoIns
 from logic.utility import BaseHandler, RpcHandler
 
 @url(r"/project/idname")

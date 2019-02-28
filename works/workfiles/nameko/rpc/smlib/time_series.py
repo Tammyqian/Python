@@ -12,7 +12,7 @@ from kpages import get_context
 
 from nameko.dependency_providers import Config
 from nameko.rpc import rpc, RpcProxy
-from mongo_util import MongoIns
+from mongo import MongoIns
 
 # 时间格式
 FORMAT_TS_S = "%Y-%m-%d_%H-%M-%S"

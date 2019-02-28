@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 from bson import ObjectId
 from kpages import url, not_empty
-from mongo_util import MongoIns
+from mongo import MongoIns
 from logic.utility import BaseHandler, RpcHandler
 import string
 from random import choice

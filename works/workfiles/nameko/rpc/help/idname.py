@@ -2,7 +2,7 @@
 
 from nameko.dependency_providers import Config
 from nameko.rpc import rpc
-from mongo_util import MongoIns
+from mongo import MongoIns
 from bson import ObjectId
 
 class IdNameService:

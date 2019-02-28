@@ -5,7 +5,7 @@ client = Client("192.168.3.167:8786")
 import time
 import dask.dataframe as dd
 import json
-from mongo_util import MongoIns
+from mongo import MongoIns
 
 DB_HOST = "192.168.111.9:27017"
 

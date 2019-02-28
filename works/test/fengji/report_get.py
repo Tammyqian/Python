@@ -1,4 +1,4 @@
-from mongo_util import MongoIns
+from mongo import MongoIns
 import time
 
 HOST = "192.168.111.10:27037"

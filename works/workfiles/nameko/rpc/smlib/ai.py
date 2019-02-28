@@ -15,7 +15,7 @@ from keras.optimizers import SGD
 
 from nameko.dependency_providers import Config
 from nameko.rpc import rpc
-from mongo_util import MongoIns
+from mongo import MongoIns
 
 class AiService:
     name = "aiService"

@@ -18,6 +18,7 @@ def filter_time():
     print start
     t3 = datetime.fromtimestamp(start)
     t4 = datetime.fromtimestamp(end)
+
     print t3,t4,type(t3)
     cond = {'dtime': {'$gte': start, '$lt': end}}
     print cond
