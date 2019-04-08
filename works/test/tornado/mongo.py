@@ -233,21 +233,21 @@ class MongoIns(object):
         """
         dbname = None
         if 'dbname' in kwargs:
-            dbname=kwargs.pop('dbname')
+            dbname = kwargs.pop('dbname')
 
         host = kwargs.pop('host', None)
-        return self.get_conn(host = host, **kwargs)[dbname or DB_NAME][table].find(kwargs).count()
+        return self.get_conn(host=host, **kwargs)[dbname or DB_NAME][table].find(kwargs).count()
 
     def m_group(self, table, key, cond, initial, func,  **kwargs):
         dbname = None
         if 'dbname' in kwargs:
-            dbname=kwargs.pop('dbname')
+            dbname = kwargs.pop('dbname')
 
         host = kwargs.pop('host', None)
 
-        return self.get_conn(host = host, **kwargs)[dbname or DB_NAME][table].group(key, cond, initial, func, **kwargs)
+        return self.get_conn(host=host, **kwargs)[dbname or DB_NAME][table].group(key, cond, initial, func, **kwargs)
 
-    def m_distinct(self, table, key, query = {}, **kwargs):
+    def m_distinct(self, table, key, query={}, **kwargs):
         dbname = None
         if 'dbname' in kwargs:
             dbname=kwargs.pop('dbname')
