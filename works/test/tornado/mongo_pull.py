@@ -18,8 +18,9 @@ cond = [
     {'item': "envelope", 'qty': 20},
     {'item': "stamps", 'qty': 30}
 ]
-print m_util.m_insert('document', dbname=dbname, host=host, data={'item': "stamps", 'qty': 30})
+# print m_util.m_insert('document', dbname=dbname, host=host, data={'item': "stamps", 'qty': 30})
 # print _id
+m_util.m_insert('document', dbname=dbname, host=host, gongdan=False, name='zhang')
 
 # collection.insert([{'item': "card", 'qty': 15},{'item': "envelope", 'qty': 20},{'item': "stamps", 'qty': 30}])
 
