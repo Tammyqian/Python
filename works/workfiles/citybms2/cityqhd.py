@@ -8,14 +8,14 @@ m_util = MongoIns()
 
 from pymongo import MongoClient
 
-host = '192.168.111.5:27011'
+host = ''
 dbname = 'sjz'
 
 cityqhd = 'cityqhd'
-cityqhd_host = '121.22.33.134:27017'
+cityqhd_host = ''
 
 cas = 'cas'
-cas_host = '192.168.111.149:27017'
+cas_host = ''
 
 # 结构类型、养护单位、管理单位、巡检人员
 def mapInfo():
